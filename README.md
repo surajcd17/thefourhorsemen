@@ -1,7 +1,7 @@
 # Terms and Conditions Summarizer
 
 ## 🚀 Motivation
-This project was developed during a college hackathon to address the lack of awareness about the often overlooked *Terms and Conditions* found on various websites. Our Chrome extension provides users with a quick, AI-generated summary of these documents, making them easier to understand and access.
+This project was developed during a college hackathon to address the lack of awareness about the often overlooked *Terms and Conditions* found on various websites. Our Chrome extension provides users with a quick summary of these documents, making them easier to understand and access.
 
 ## 🧠 What It Does
 The extension automatically detects Terms and Conditions pages and generates a concise summary to help users grasp the key points without reading through lengthy legal text.
