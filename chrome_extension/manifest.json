@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Website Summarizer",
+  "description": "Summarize Terms & Conditions from the current page via local server",
+  "version": "1.0",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["http://localhost:5000/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "T&C Summarizer"
+  }
+}
