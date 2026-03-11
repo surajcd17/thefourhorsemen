@@ -1,15 +1,15 @@
-import requests
-from bs4 import BeautifulSoup
-import re
-import nltk
-from nltk.tokenize import sent_tokenize
-from nltk.corpus import stopwords
+import requests #makes http request to fetch html of webpage
+from bs4 import BeautifulSoup #parse and lets extract content easily in html
+import re #regular expression for cleaning text 
+import nltk #natural lang toolkit-provides tokenizers and stopword list
+from nltk.tokenize import sent_tokenize #Splits large text into sentences.
+from nltk.corpus import stopwords #Common words (like the, is, and) aren't considered for keyword frequency.
 from nltk.tokenize import word_tokenize
 
 def setup_nltk():
     """Setup NLTK and download required resources"""
     try:
-        resources = ['punkt', 'stopwords']
+        resources = ['punkt', 'stopwords'] #punkt -tokenizer model
         for resource in resources:
             nltk.download(resource, quiet=True)
         return True
